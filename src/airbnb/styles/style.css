@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins' sans-serif;
+}
+nav {
+    padding: 20px;
+}
+
+.nav-bar {
+    height: 70px;
+    box-shadow: 0px 2.9825618267059326px 7.456404209136963px 0px #0000001A;
+    display: flex;
+}
+
+.logo {
+    max-width: 450px;
+}
+
+session {
+    padding: 30px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-image {
+    padding: 20px 50px;
+}
+
+.hero-title {
+    font-size: 66px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.hero-text {
+    font-size: 36px;
+    font-weight: 300;
+    text-align: left;    
+    margin-top: 0;
+    text-wrap: balance;
+}
+
+.main-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    display: grid;
+}
+
+.card-image {
+    display: grid;
+}
+
+.card-image > button {
+    position: absolute;
+    border-radius: 4px;
+    margin: 9px;
+    padding: 6px;
+    border-style: none;
+}
+
+.card-star {
+    display: flex;
+    padding-top: 10px;
+    height: 35px;
+    align-items: center;
+    margin-bottom: 0;
+}
+.star-icon {
+    margin-right: 5px;
+}
+
+.card-ratings, .card-purchase,.card-text, .card-price {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.card-ratings {
+    margin-right: 2px;
+    color: #222222;
+}
+
+.card-purchase {
+    color: #918E9B;
+}
+
+.card-text {
+    margin: 10px 0 0 0;
+}
+.card-price {
+    margin-top: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
